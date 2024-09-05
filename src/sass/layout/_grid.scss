@@ -1,0 +1,67 @@
+//Day-1
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+
+  &__left {
+    background-image: linear-gradient(
+      to right bottom,
+      $color-react-light,
+      $color-react-dark
+    );
+    position: relative;
+
+    &--text-box {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      margin-bottom: 8rem;
+      transition: all 0.2s;
+      &-img {
+      }
+      h1 {
+        font-size: 4rem;
+        color: $color-text-dark;
+        transition: all 0.2s;
+      }
+    }
+    &--learn-box {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+      width: 100%;
+
+      &-skills {
+        background-clip: text;
+        background-image: linear-gradient(to right, #fff, #ffffff94);
+        color: transparent;
+        text-align: center;
+        font-size: 3rem;
+        transition: all 0.2s;
+        h2:hover {
+          background-clip: text;
+          background-image: linear-gradient(to right, #fff, #ffffff94);
+          color: transparent;
+          transform: skewY(2deg) skewX(15deg) scale(1.1);
+        }
+      }
+    }
+  }
+
+  &__right {
+    position: relative;
+    transition: all 0.2s;
+    &--img-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  }
+}
