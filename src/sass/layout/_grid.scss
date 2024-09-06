@@ -65,3 +65,24 @@
     }
   }
 }
+
+//Day2
+
+.container {
+  position: relative;
+  height: 100vh;
+
+  background-color: $color-react-dark;
+}
+
+.counter-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+
+  &:nth-child(3) {
+    margin-right: 1rem;
+  }
+}
