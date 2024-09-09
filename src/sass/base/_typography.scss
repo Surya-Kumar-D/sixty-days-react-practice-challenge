@@ -7,3 +7,22 @@ body {
 .counter {
   text-align: center;
 }
+
+//Day-2
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-container {
+  input {
+    height: 5rem;
+    width: 40rem;
+    font-size: 4.5rem;
+  }
+}
+.item-container {
+  display: flex;
+  gap: 2rem;
+  font-size: 5rem;
+}
