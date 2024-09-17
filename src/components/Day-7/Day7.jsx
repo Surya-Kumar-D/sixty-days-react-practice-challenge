@@ -11,7 +11,7 @@ function Day7() {
     async function fetchWeather(params) {
       if (inputCity) {
         let data = await fetch(
-          `https://api.openweathermap.org/data/2.5/weather?q=${inputCity}&appid=${APIKEY}&units=metric`
+          `https://api.openweathermap.org/data/2.5/weather?q=${inputCity}&appid=APIKEY&units=metric`
         );
         let res = await data.json();
         console.log(res);
