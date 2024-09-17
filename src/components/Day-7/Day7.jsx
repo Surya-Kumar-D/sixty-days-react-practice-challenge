@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-let APIKEY = "2a61f9a45f7f22fdc579e5c8ff3651ac";
 
 function Day7() {
   const [inputCity, setInputCity] = useState("");
