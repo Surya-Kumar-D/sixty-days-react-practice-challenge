@@ -5,11 +5,12 @@ import Day4 from "./components/Day-4/Day4";
 import Day5 from "./components/Day-5/Day5";
 import Day6 from "./components/Day-6/Day6";
 import Day7 from "./components/Day-7/Day7";
+import Day8 from "./components/Day-8/Day8";
 import "./sass/main.scss";
 function App() {
   return (
     <>
-      <Day7 />
+      <Day8 />
     </>
   );
 }
