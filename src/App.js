@@ -1,5 +1,8 @@
 import Day1 from "./components/Day-1/Day1";
 import Day10 from "./components/Day-10/Day10";
+import Day11 from "./components/Day-11/Day11";
+import RandomQuote from "./components/Day-12/RandomQuote";
+import Day13 from "./components/Day-13/Day13";
 import Day2 from "./components/Day-2/Day2";
 import Day3 from "./components/Day-3/Day3";
 import Day4 from "./components/Day-4/Day4";
@@ -12,7 +15,7 @@ import "./sass/main.scss";
 function App() {
   return (
     <>
-      <Day10 />
+      <Day13 />
     </>
   );
 }
